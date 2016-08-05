@@ -1,0 +1,64 @@
+		
+		* {
+    		margin: 0;
+    		padding: 0;
+    		border: 0;
+    		outline: 0;
+    		font-size: 100%;
+    		vertical-align: baseline;
+    		background: transparent;
+		}
+
+		html {
+			font-family: "Times New Roman";
+		}
+
+		body {
+			background-color: white;
+		}
+
+		header {
+			background-image: url("img/my_cover _photo1.jpg");
+			background-size: cover;
+			color: red; /**/
+			text-align: center;
+		}
+
+		header h1{
+			color: rgba(102, 51, 153, 0.75);
+			font-size: 150px;
+			padding-top: 300px;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			word-spacing: 50px;
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		li {
+			display: inline;
+			width: 60px;
+			font-size: 50px;
+		}
+
+		article {
+      		max-width:500px;
+      		padding: 20px;
+      		margin: 0 auto;
+    	}
+
+    	article p{
+    		font-size: 25px;
+    	}
+
+    	article h1 {
+    		font-size: 30px;
+    	}
+
+    	article img {
+    		width: 50%; /* you can use % */
+    		height: auto;
+    	}
